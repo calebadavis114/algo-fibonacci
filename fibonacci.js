@@ -1,5 +1,6 @@
 function fibonacci(num) {
-  return 0;
+ let f = num + (num - 1);
+ return f
 }
 
 module.exports = fibonacci;
