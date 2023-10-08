@@ -1,4 +1,4 @@
-const fibonacci = require("./fibonacci");
+const fibonacci = require('./fibonacci.js');
 
 describe("test fibonacci", () => {
   test("fibonacci(0) === 0", () => {
@@ -12,7 +12,6 @@ describe("test fibonacci", () => {
   test("fibonacci(5) === 5", () => {
     expect(fibonacci(5)).toBe(5);
   });
-
   test("fibonacci(8) === 21", () => {
     expect(fibonacci(8)).toBe(21);
   });
